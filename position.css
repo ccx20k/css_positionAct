@@ -1,12 +1,26 @@
-body {
+* {
+    box-sizing: border-box;
+}
 
+body {
+    line-height: 30px;
+    font-size: 26px;
+    color: #333;
 }
 
 .fixed {
-
+    position: fixed;
+    margin-top: 0;
+    margin-left: 0;
+    text-align: center;
+    color: #333;
+    width: 200px;
+    height: 100px;
+    background-color: #eee;
+    
 }
 
-.danceFloor {
+.mainBox {
     
 }
 
@@ -15,7 +29,7 @@ body {
 }
 
 h1 {
-    
+
 }
 
 .relative {
